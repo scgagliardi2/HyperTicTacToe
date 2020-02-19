@@ -1,0 +1,12 @@
+.triangle {
+  width: 0;
+  height: 0;
+  background-color: aquamarine;
+  border-style: "solid";
+  border-left-width: 50;
+  border-right-width: 50;
+  border-bottom-width: 100;
+  border-left-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+}
