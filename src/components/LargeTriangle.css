@@ -1,13 +1,12 @@
-.LargeTriangle {
-    float: left;
-    margin-top: 5px;
-    height: 10%;
-    width: 136px;
-    border-radius: 10px;
-    background-color: white;
-    border: 2px solid white;
-    border-style: inset;
-    padding: 5px;
-    font-weight: bold;
-  }
-  
+.largeTriangle {
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgb(50, 201, 150);
+  display: inline-block;
+}
+
+.largeTriangle:hover {
+  border-bottom: 100px solid rgb(63, 250, 188)
+}

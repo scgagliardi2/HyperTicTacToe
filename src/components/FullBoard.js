@@ -1,12 +1,11 @@
 import React from "react";
 import "./FullBoard.css";
-import Dropdown from "./Dropdown";
-import QueryInput from "./LargeTriangle";
+import LargeTriangle from "./LargeTriangle";
 
 class FullBoard extends React.Component {
   state = {};
   render() {
-    return <div className="fullBoard"><Dropdown></Dropdown><QueryInput></QueryInput></div>;
+    return <div className="fullBoard"><LargeTriangle></LargeTriangle></div>;
   }
 }
 

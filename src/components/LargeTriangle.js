@@ -2,10 +2,10 @@ import React from "react";
 import "./LargeTriangle.css";
 
 class LargeTriangle extends React.Component {
+
   render() {
     return (
-      <input type="text" class="LargeTriangle">
-      </input>
+      <div className="largeTriangle"></div>
     );
   }
 }
