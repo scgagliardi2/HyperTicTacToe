@@ -1,0 +1,12 @@
+.dropdown {
+  float: left;
+  margin-bottom: 5px;
+  height: 30%;
+  width: inherit;
+  border-radius: 10px;
+  background-color: rgb(100, 158, 201);
+  border: 2px solid white;
+  border-style: outset;
+  padding: 5px;
+  font-weight: bold;
+}

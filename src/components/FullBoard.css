@@ -1,0 +1,6 @@
+.fullBoard {
+  margin-top: 50px;
+  height: 800;
+  width: 800px;
+  display: inline-block;
+}

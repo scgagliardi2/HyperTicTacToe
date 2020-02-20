@@ -1,16 +1,15 @@
 import React from "react";
-import singleBoard from "./singleBoard.js";
 import "./App.css";
+import Logo from "./Cohu-Standard-Color-Logo-Transpaprent.png";
+import Display from "./Display";
 
 function App() {
   return (
     <div className="App">
-      <p>test paragraph</p>
-      <body>
-        <div>
-          <singleBoard></singleBoard>
-        </div>
-      </body>
+      <b>
+        <p>Hyper Tic Tac Toe</p>
+      </b>
+      <Display></Display>
     </div>
   );
 }
