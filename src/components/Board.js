@@ -1,13 +1,13 @@
 import React from "react";
-import "./FullBoard.css";
+import "./Board.css";
 import TriangleUp from "./triangles/TriangleUp";
 import TriangleDown from "./triangles/TriangleDown";
 
-class FullBoard extends React.Component {
+class Board extends React.Component {
   state = {};
   render() {
     return (
-    <div className="fullBoard">
+    <div className="Board">
       <div className="row">
         <TriangleUp></TriangleUp>
       </div>
@@ -52,4 +52,4 @@ class FullBoard extends React.Component {
   }
 }
 
-export default FullBoard;
+export default Board;

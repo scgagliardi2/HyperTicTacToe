@@ -1,24 +1,27 @@
-.fullBoard {
-  margin-top: 50px;
-  height: 900;
-  width: 1000px;
+.Board {
+  margin: 0px;
+  padding: 0px;
+  height: 200px;
+  width: 200px;
   display: inline-block;
   text-align: center;
+  
 }
 
 .row {
   width: 100%;
-  margin: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .columnOne {
   position: relative;
-  left: 160px;
+  left: 134px;
   display: inline-block;
 }
 .columnTwo {
   position: relative;
-  left: 80px;
+  left: 67px;
   display: inline-block;
 }
 .columnThree {
@@ -27,11 +30,11 @@
 }
 .columnFour {
   position: relative;
-  right: 80px;
+  right: 67px;
   display: inline-block;
 }
 .columnFive {
   position: relative;
-  right: 160px;
+  right: 134px;
   display: inline-block;
 }
