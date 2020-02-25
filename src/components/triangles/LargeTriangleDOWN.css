@@ -1,0 +1,13 @@
+.largeTriangleDOWN {
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 160px solid rgb(50, 201, 150);
+  display: inline-block;
+  position: relative;
+}
+
+.largeTriangleDOWN:hover {
+  border-top: 160px solid rgb(63, 250, 188)
+}

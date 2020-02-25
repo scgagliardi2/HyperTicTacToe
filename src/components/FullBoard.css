@@ -1,7 +1,37 @@
 .fullBoard {
   margin-top: 50px;
-  height: 800;
-  width: 800px;
+  height: 900;
+  width: 1000px;
   display: inline-block;
   text-align: center;
+}
+
+.row {
+  width: 100%;
+  margin: 10px;
+}
+
+.columnOne {
+  position: relative;
+  left: 160px;
+  display: inline-block;
+}
+.columnTwo {
+  position: relative;
+  left: 80px;
+  display: inline-block;
+}
+.columnThree {
+  position: relative;
+  display: inline-block;
+}
+.columnFour {
+  position: relative;
+  right: 80px;
+  display: inline-block;
+}
+.columnFive {
+  position: relative;
+  right: 160px;
+  display: inline-block;
 }
