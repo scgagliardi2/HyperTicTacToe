@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Logo from "./Cohu-Standard-Color-Logo-Transpaprent.png";
 import Display from "./Display";
 
 function App() {

@@ -1,4 +1,4 @@
-.largeTriangleUP {
+.TriangleUp {
   width: 0; 
   height: 0; 
   border-left: 100px solid transparent;
@@ -8,6 +8,6 @@
   position: relative;
 }
 
-.largeTriangleUP:hover {
+.TriangleUp:hover {
   border-bottom: 160px solid rgb(63, 250, 188)
 }

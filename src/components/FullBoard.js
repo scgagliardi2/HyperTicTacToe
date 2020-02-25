@@ -1,7 +1,7 @@
 import React from "react";
 import "./FullBoard.css";
-import LargeTriangleUP from "./triangles/LargeTriangleUP";
-import LargeTriangleDOWN from "./triangles/LargeTriangleDOWN";
+import TriangleUp from "./triangles/TriangleUp";
+import TriangleDown from "./triangles/TriangleDown";
 
 class FullBoard extends React.Component {
   state = {};
@@ -9,44 +9,44 @@ class FullBoard extends React.Component {
     return (
     <div className="fullBoard">
       <div className="row">
-        <LargeTriangleUP></LargeTriangleUP>
+        <TriangleUp></TriangleUp>
       </div>
       <div className="row">
         <div className='columnOne'>
-          <LargeTriangleDOWN></LargeTriangleDOWN>
+          <TriangleDown></TriangleDown>
         </div>
         <div className='columnTwo'>
-          <LargeTriangleUP></LargeTriangleUP>
+          <TriangleUp></TriangleUp>
         </div>
         <div className='columnThree'>
-          <LargeTriangleDOWN></LargeTriangleDOWN>
+          <TriangleDown></TriangleDown>
         </div>
         <div className='columnFour'>
-          <LargeTriangleUP></LargeTriangleUP>
+          <TriangleUp></TriangleUp>
         </div>
         <div className='columnFive'>
-          <LargeTriangleDOWN></LargeTriangleDOWN>
+          <TriangleDown></TriangleDown>
         </div>
       </div>
       <div className="row">
         <div className='columnOne'>
-          <LargeTriangleUP></LargeTriangleUP>
+          <TriangleUp></TriangleUp>
         </div>
         <div className='columnTwo'>
-          <LargeTriangleDOWN></LargeTriangleDOWN>
+          <TriangleDown></TriangleDown>
         </div>
         <div className='columnThree'>
-          <LargeTriangleUP></LargeTriangleUP>
+          <TriangleUp></TriangleUp>
         </div>
         <div className='columnFour'>
-          <LargeTriangleDOWN></LargeTriangleDOWN>
+          <TriangleDown></TriangleDown>
         </div>
         <div className='columnFive'>
-          <LargeTriangleUP></LargeTriangleUP>
+          <TriangleUp></TriangleUp>
         </div>
       </div>
       <div className="row">
-        <LargeTriangleDOWN></LargeTriangleDOWN>
+        <TriangleDown></TriangleDown>
       </div>
     </div>);
   }
